@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    font-family: system-ui;
+    color: white;
+}
+
+.num-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #e94560, #0f3460);
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#sum-el {
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
