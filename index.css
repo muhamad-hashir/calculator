@@ -17,12 +17,16 @@ body {
     margin-bottom: 20px;
 }
 
-span {
+input {
     font-size: 40px;
     font-weight: bold;
     border: 2px solid white;
     padding: 10px 25px;
     border-radius: 8px;
+    background: transparent;
+    color: white;
+    width: 150px;
+    text-align: center;
 }
 
 .btn-container {
